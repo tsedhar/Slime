@@ -1,7 +1,7 @@
 window.onload = function () {
   let canvas = document.getElementById('c');
   let ctx = canvas.getContext('2d');
-  let width = window.innerWidth - 4;
+  let width = window.innerWidth - 400000;
   let height = window.innerHeight - 4;
   canvas.width = width;
   canvas.height = height;
